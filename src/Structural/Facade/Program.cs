@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Facade;
+
+OrderFacade order = new OrderFacade();
+order.PlaceOrder();
+Console.Read();
